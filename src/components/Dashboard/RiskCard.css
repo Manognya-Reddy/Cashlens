@@ -1,0 +1,43 @@
+.risk-card {
+  background: #fff5f5;
+  border: 1px solid #feb2b2;
+  border-radius: 12px;
+  padding: 24px;
+}
+
+.risk-icon {
+  width: 40px;
+  height: 40px;
+  background: #fff;
+  border: 2px solid #f56565;
+  color: #f56565;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  margin-bottom: 16px;
+}
+
+.risk-header h2 {
+  color: #c53030;
+  margin: 0 0 8px 0;
+}
+
+.risk-details {
+  margin-top: 24px;
+  border-top: 1px solid #fed7d7;
+  padding-top: 16px;
+}
+
+.risk-details h4 {
+  color: #742a2a;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.risk-details ul {
+  padding-left: 20px;
+  color: #9b2c2c;
+  font-size: 13px;
+}

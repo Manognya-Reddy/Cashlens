@@ -1,0 +1,58 @@
+.action-card {
+  background: white;
+  border: 1px solid #edf2f7;
+  border-radius: 12px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.priority-tag {
+  font-size: 10px;
+  font-weight: 700;
+  padding: 2px 8px;
+  border-radius: 4px;
+  letter-spacing: 0.5px;
+}
+
+.priority-tag.high { background: #fff5f5; color: #e53e3e; }
+.priority-tag.medium { background: #fffaf0; color: #dd6b20; }
+
+.action-card h4 {
+  margin: 12px 0 8px 0;
+  font-size: 15px;
+  color: #2d3748;
+}
+
+.action-card p {
+  font-size: 13px;
+  color: #718096;
+  margin-bottom: 20px;
+  line-height: 1.4;
+}
+
+.action-footer {
+  margin-top: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.impact-label {
+  font-size: 12px;
+  color: #718096;
+}
+
+.impact-value {
+  color: #38a169;
+  font-weight: 600;
+}
+
+.act-now {
+  background: none;
+  border: none;
+  color: #3182ce;
+  font-weight: 600;
+  cursor: pointer;
+  font-size: 13px;
+}
